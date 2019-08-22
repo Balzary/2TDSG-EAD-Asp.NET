@@ -1,0 +1,35 @@
+﻿@model IList<Time>
+
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h2>Listar</h2>
+
+@if (TempData["msg"] != null)
+<div class="alert alert-sucesss">
+    @TempData["msg"]
+</div>
+
+<a asp-action="Cadastrar" asp-controller="Time" class="btn btn-outline-dark">Cadastrar</a>
+
+<table class="table">
+    <tr>
+        <th>Nome</th>
+        <th>Data Fundação</th>
+        <th>Folha</th>
+        <th>Vitórias</th>
+        <th>Classificado</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+     <tr>
+        <td>@item.Nome</td>
+        <td>@item.DataFundacao.ToShortDateString()</td>
+        <td>@item.FolhaPagamento</td>
+        <td>@item.Vitorias</td>
+        <td>@(item.Classificado?"Sim":"Não")</td>
+    </tr>
+    }
+    </table>
+
