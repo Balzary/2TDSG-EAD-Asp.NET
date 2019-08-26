@@ -1,0 +1,28 @@
+﻿@model  IList<Zoo>
+
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Listar</h1>
+
+<mensagem texto="@TempData["msg"]"></mensagem>
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Jaulas</th>
+        <th>Tipo</th>
+        <th>Data Abertura</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+<tr>
+    <th>@item.Nome</th>
+    <th>@item.Jaulas</th>
+    <th>@item.EntidadeAdministradora</th>
+    <th>@item.DataAbertura.ToShortDateString()</th>
+</tr>
+    }
+    </table>
+
