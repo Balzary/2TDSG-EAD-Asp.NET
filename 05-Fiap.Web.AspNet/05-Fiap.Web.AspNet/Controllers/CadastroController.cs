@@ -19,7 +19,7 @@ namespace _05_Fiap.Web.AspNet.Controllers
 
         public IActionResult Listar()
         {
-            return View();
+            return View(_lista);
         }
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj": {}
+    "D:\\2TDSG-EAD-Asp.NET\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj": {}
   },
   "projects": {
-    "D:\\repos\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj": {
+    "D:\\2TDSG-EAD-Asp.NET\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj",
+        "projectUniqueName": "D:\\2TDSG-EAD-Asp.NET\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj",
         "projectName": "05-Fiap.Web.AspNet",
-        "projectPath": "D:\\repos\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj",
+        "projectPath": "D:\\2TDSG-EAD-Asp.NET\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet.csproj",
         "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\obj\\",
+        "outputPath": "D:\\2TDSG-EAD-Asp.NET\\05-Fiap.Web.AspNet\\05-Fiap.Web.AspNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

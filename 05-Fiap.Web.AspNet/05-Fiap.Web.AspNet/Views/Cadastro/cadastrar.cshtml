@@ -4,7 +4,12 @@
     ViewData["Title"] = "cadastrar";
 }
 
-<h1>cadastrar</h1>
+@{
+    Layout = "_Layout";
+}
+
+
+<h1>Cadastrar</h1>
 
 <div class="form-row">
     <form asp-action="Cadastrar" asp-controller="Cadastro">
@@ -27,9 +32,7 @@
             </select>
 
         </div>
-
-        <input type="submit" class="btn btn-outline-dark" value="OK" />     
-        <a asp-controller="Zoo" asp-action="Listar" class="btn btn-outline-dark">Listar</a>    
+        <botao></botao>
 
     </form>
 </div>

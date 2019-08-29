@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<h1>Cadastrar</h1>
+
+<form action="/usuario/cadastrar" method="post">
+    <div class="form-group">
+        <label for="idNome">Nome</label>
+        <input type="text" name="nome" id="idNome" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="idEmail">E-mail</label>
+        <input type="email" name="email" id="idEmail" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="idDataNasc">Data de Nascimento</label>
+        <input type="date" name="dataNascimento" id="idDataNasc" class="form-control">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Enviar" />
+</form>
+
+<h2>@ViewBag.sucesso</h2>
+<p>@ViewBag.cliente, @ViewBag.nome, @ViewBag.email</p>
+
+

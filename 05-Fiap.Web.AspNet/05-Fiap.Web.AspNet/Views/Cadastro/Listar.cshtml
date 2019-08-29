@@ -1,4 +1,4 @@
-﻿@model  IList<Zoo>
+﻿@model IList<Zoo>
 
 @{
     ViewData["Title"] = "Listar";
@@ -15,14 +15,14 @@
         <th>Tipo</th>
         <th>Data Abertura</th>
     </tr>
-    @foreach(var item in Model)
+    @foreach (var item in @Model)
     {
-<tr>
-    <th>@item.Nome</th>
-    <th>@item.Jaulas</th>
-    <th>@item.EntidadeAdministradora</th>
-    <th>@item.DataAbertura.ToShortDateString()</th>
-</tr>
+        <tr>
+            <th>@item.Nome</th>
+            <th>@item.Jaulas</th>
+            <th>@item.EntidadeAdministradora</th>
+            <th>@item.DataAbertura.ToShortDateString()</th>
+        </tr>
     }
-    </table>
+</table>
 
