@@ -1,7 +1,12 @@
-﻿namespace _06_Fiap.Web.AspNet.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace _06_Fiap.Web.AspNet.Models
 {
     public enum Categoria
     {
-        Pista, Esteira, Rua
+        Pista, Rua, Esteira
     }
 }
